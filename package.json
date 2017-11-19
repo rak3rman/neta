@@ -1,6 +1,6 @@
 {
   "name": "neta",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Network Analysis | Discover Devices",
   "main": "neta.js",
   "preferGlobal": true,
