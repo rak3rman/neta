@@ -98,7 +98,7 @@ delay(500)
 //NODE EVILSCAN
 var options = {
     target:'192.168.200.0/22', //Scan 1
-    //target:'10.0.0.0-10.0.0.255', //Scan 2
+    //target:'10.10.0.0-10.10.255.255', //Scan 2
     //target:'172.16.0.0-172.31.255.255' //Scan 3
     port:'21,22,554,3389',
     status:'O', // Timeout, Refused, Open, Unreachable
