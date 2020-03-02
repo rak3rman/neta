@@ -23,16 +23,18 @@
     "network": "^0.3.2",
     "node-arp": "^1.0.5",
     "node-nmap": "^4.0.0",
-    "ora": "^1.3.0",
     "delay": "^2.0.0",
-    "evilscan": "^1.1.0"
+    "evilscan": "^1.1.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "nsp": "^2.6.3",
     "standard": "^10.0.2"
   },
   "scripts": {
-    "test": "standard && nsp check"
+    "test": "standard && nsp check",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -48,5 +50,6 @@
   "bugs": {
     "url": "https://github.com/RAkerman1/neta/issues"
   },
-  "homepage": "https://github.com/RAkerman1/neta#readme"
+  "homepage": "https://github.com/RAkerman1/neta#readme",
+  "snyk": true
 }
