@@ -25,7 +25,7 @@
     "node-nmap": "^4.0.0",
     "delay": "^2.0.0",
     "evilscan": "^1.1.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "nsp": "^2.6.3",
