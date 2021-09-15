@@ -18,7 +18,7 @@
     "confirm": "^0.1.1",
     "debug": "^3.1.0",
     "figlet": "^1.2.0",
-    "inquirer": "^3.3.0",
+    "inquirer": "^7.0.5",
     "latest-version": "^3.1.0",
     "network": "^0.3.2",
     "node-arp": "^1.0.5",
